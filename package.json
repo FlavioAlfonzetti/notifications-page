@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-vite",
+  "name": "notifications",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
