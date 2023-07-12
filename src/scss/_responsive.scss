@@ -1,0 +1,21 @@
+@mixin medium {
+  @include breakpoint(medium) {
+    .container {
+      margin-top: 4rem;
+      padding: 2rem 2rem;
+      border-radius: 1rem;
+      box-shadow: 0px 0px 35px $neutral_light-grayish-blue-1;
+
+      .notifications {
+        .notification-5 {
+          position: relative;
+
+          .img-5-1 {
+            position: absolute;
+            right: 5%;
+          }
+        }
+      }
+    }
+  }
+}

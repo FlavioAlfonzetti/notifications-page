@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Notifications page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-txt">
+        <h1 class="notification-counter">
+          Notifications <span id="counter-number"></span>
+        </h1>
+        <h2 class="mark-read">Mark all as read</h2>
+      </div>
+      <div class="notifications">
+        <div class="notification-1 notification active">
+          <div class="img-1">
+            <img src="assets/images/avatar-mark-webber.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Mark Webber</span> reacted to your recent post
+              <span>My first tournament today!</span>
+              <span class="unread"></span>
+            </p>
+            <p>1m ago</p>
+          </div>
+        </div>
+        <div class="notification-2 notification active">
+          <div class="img-2">
+            <img src="assets/images/avatar-angela-gray.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Angela Gray</span> followed you <span class="unread"></span>
+            </p>
+            <p>5m ago</p>
+          </div>
+        </div>
+        <div class="notification-3 notification active">
+          <div class="img-3">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Jacob Thompson</span> has joined your group
+              <span>Chess Club</span><span class="unread"></span>
+            </p>
+            <p>1 day ago</p>
+          </div>
+        </div>
+        <div class="notification-4 notification active">
+          <div class="img-4">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Rizky Hasanuddin</span> sent you a private message
+              <span class="unread"></span>
+            </p>
+            <p>5 days ago</p>
+            <div class="message">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="notification-5 notification active">
+          <div class="img-5">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Kimberly Smith</span> commented on your picture
+              <span class="unread"></span>
+            </p>
+            <p>1 week ago</p>
+          </div>
+          <div class="img-5-1">
+            <img src="assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+        <div class="notification-6 notification active">
+          <div class="img-6">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Nathan Peterson</span> reacted to your recent post
+              <span>5 end-game strategies to increase your win rate</span>
+              <span class="unread"></span>
+            </p>
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+        <div class="notification-7 notification active">
+          <div class="img-7">
+            <img src="assets/images/avatar-anna-kim.webp" alt="" />
+          </div>
+          <div class="notification-txt">
+            <p>
+              <span>Anna Kim</span> left the group <span>Chess Club</span>
+              <span class="unread"></span>
+            </p>
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
