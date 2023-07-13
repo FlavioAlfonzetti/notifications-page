@@ -104,6 +104,7 @@ body {
           .notification-txt {
             p {
               position: relative;
+
               .unread {
                 position: absolute;
                 background-color: $primary_red;
@@ -118,24 +119,6 @@ body {
         }
       }
 
-      /* .notification-1,
-      .notification-3,
-      .notification-6,
-      .notification-7 {
-        .notification-txt {
-          p {
-            span:nth-child(2) {
-              font-weight: $fw_bolder;
-              cursor: pointer;
-
-              &:hover {
-                color: $primary_blue;
-              }
-            }
-          }
-        }
-      } */
-
       .notification-4 {
         .notification-txt {
           .message {
@@ -143,6 +126,7 @@ body {
               background-color: $neutral_light-grayish-blue-1;
               border-radius: 0.5rem;
             }
+
             p {
               border-radius: 0.5rem;
               border: $neutral_light-grayish-blue-2 1px solid;
